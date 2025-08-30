@@ -11,13 +11,12 @@ Pequeno script em **PowerShell** para testar a resposta do Windows Defender a pa
 - Salva os resultados em tabela no console e exporta para `defender_results.csv`.
 
 ## Uso
-```powershell
 .\defender_test.ps1
 
-Exemplo de saída
+## Exemplo de saída
 Test  	Path	Status	Time
 EICAR_String	C:\Users...\EICAR_String.txt	Not Detected	29/08/2025 22:43:08
 Dummy_DLL	C:\Users...\Dummy_DLL.txt	Not Detected	29/08/2025 22:43:10
 Base64_Shell	C:\Users...\Base64_Shell.txt	Not Detected	29/08/2025 22:43:12
-
-⚠️ Obs: Nenhum arquivo é malicioso. São apenas strings seguras para benchmark de antivírus.
+  
+## ⚠️ Obs: Nenhum arquivo é malicioso. São apenas strings seguras para benchmark de antivírus.
